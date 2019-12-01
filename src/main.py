@@ -14,7 +14,7 @@ p = 2
 
 def get_data():
     # récupère les données du fichier
-    with open('../data.txt', 'r') as f:
+    with open('./../data.txt', 'r') as f:
         data = [[int(num) for num in line.split(' ')] for line in f]
 
     # print(data)
@@ -92,6 +92,7 @@ def compute_dominance(allx, ally):
         allx.remove(x)
     for y in toremovey:
         ally.remove(y)
+
 
 def neighbors(x, allx, ally):
     # on récupère les voisins de la manière suivante:
