@@ -1,0 +1,30 @@
+Temps d'execution: 10.712879s
+gap: 0.0
+Temps d'execution de la recherche locale: 0.41
+Temps d'execution de l'elicitation incrementale: 10.31
+Jeu de poids: 0.19204646441960033 0.18879853060115317 0.2977794856155773 0.3213755193636691 
+Nombre de questions: 11
+Temps d'execution: 10.726979s
+gap: 0.0
+Temps d'execution de la recherche locale: 0.2
+Temps d'execution de l'elicitation incrementale: 10.53
+Jeu de poids: 0.17383453871689095 0.27868215880128494 0.41668537379966514 0.13079792868215895 
+Nombre de questions: 11
+Temps d'execution: 13.30512s
+gap: 0.0
+Temps d'execution de la recherche locale: 0.4
+Temps d'execution de l'elicitation incrementale: 12.91
+Jeu de poids: 0.35008290714734286 0.1037084118919208 0.23298686013004022 0.31322182083069605 
+Nombre de questions: 11
+Temps d'execution: 15.895061s
+gap: 0.0
+Temps d'execution de la recherche locale: 0.43
+Temps d'execution de l'elicitation incrementale: 15.46
+Jeu de poids: 0.23878494816120951 0.3874885656788094 0.24551512085354538 0.1282113653064358 
+Nombre de questions: 11
+Temps d'execution: 15.239184s
+gap: 0.0
+Temps d'execution de la recherche locale: 0.45
+Temps d'execution de l'elicitation incrementale: 14.79
+Jeu de poids: 0.19511347483377173 0.1890083090850934 0.03848695427548331 0.5773912618056516 
+Nombre de questions: 9

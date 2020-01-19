@@ -1,0 +1,6 @@
+Temps d'execution: 30286.284986s
+gap: 0.0
+Temps d'execution de la recherche locale: 306.36
+Temps d'execution de l'elicitation incrementale: 29979.92
+Jeu de poids: 0.28842269768275014 0.13922280609998688 0.29224436660964936 0.2801101296076137 
+Nombre de questions: 29

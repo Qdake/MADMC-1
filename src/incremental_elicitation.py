@@ -65,7 +65,7 @@ def mmr_incremental_elicitaiton(allx, ally, w, evidence):
         x = ally[argmin_mmr]
         y = ally[argmax_mr[argmin_mmr]]
         #print("x: ", ally[argmin_mmr], "y: ", ally[argmax_mr[argmin_mmr]])
-
+        #print(nb_q,mr)
         if (mmr > 0):
             nb_q+=1
             # on retire la solution qui n'est pas désirée par le décideur
@@ -78,7 +78,8 @@ def mmr_incremental_elicitaiton(allx, ally, w, evidence):
                 allx.pop(argmin_mmr)
                 ally.pop(argmin_mmr)
         else:
-            opt = allx[argmin_mmr]
-            opt_value = ally[argmin_mmr]
-    return [opt, opt_value,nb_q, evidence, mr[0]]
+            opt_code = allx[argmin_mmr]
+            opt_solution = ally[argmin_mmr]
+            opt_value = sum(w[i]*opt_solution[i] for i in range(len(w)));
+    return [opt_code, opt_solution,opt_value,nb_q, evidence, mr[0]]
 

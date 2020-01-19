@@ -58,7 +58,7 @@ def interactive_local_search(n,k,p,data,w):
         allx = xs;
         ally = [compute_evaluation(x) for x in xs];
         compute_dominance(allx,ally)
-        x, eval_x, nb_q, evidence, mr =  incremental_elicitation.mmr_incremental_elicitaiton(allx, ally, w, evidence)
+        x, eval_x,_,nb_q, evidence, mr =  incremental_elicitation.mmr_incremental_elicitaiton(allx, ally, w, evidence)
         
         return x, eval_x, evidence
     
@@ -174,12 +174,13 @@ def interactive_local_search(n,k,p,data,w):
         # on supprime les solutions dominées
         compute_dominance(allx, ally)
 
-        newx, eval_newx, new_nb_q, evidence, mr_x =  incremental_elicitation.mmr_incremental_elicitaiton(allx, ally, w, evidence)
-        nb_q += new_nb_q;
+        newx, newy, eval_newx, new_nb_q, evidence, mr_x =  incremental_elicitation.mmr_incremental_elicitaiton(allx, ally, w, evidence)
+        nb_q += new_nb_q
         if mr_x > 0:
-            x = newx;
-            y = eval_newx;
+            x = newx
+            y = newy
         else:
-            improve = False;
+            improve = False
+            opt_value = eval_newx
             
-    return x, y,nb_q
+    return x,y, opt_value,nb_q

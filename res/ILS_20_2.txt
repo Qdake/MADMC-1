@@ -1,0 +1,4 @@
+Temps d'execution : 16.000523
+gap: 0.026317
+Jeu de poids: 0.8558209066734087 0.1441790933265913 
+Nombre de questions: 1

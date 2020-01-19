@@ -1,0 +1,140 @@
+Temps d'execution de la recherche locale: 0.91s
+Temps d'execution de l'elicitation incrementale: 62.54s
+Jeu de poids: 0.18522511153797439 0.10413866267729072 0.1667556804240955 0.21524200821871117 0.3286385371419282 
+Nombre de questions: 13
+Optimal: 310 298 161 304 342 
+Optimal du fichier: 310 298 161 304 342 
+
+Temps d'execution de la recherche locale: 0.83s
+Temps d'execution de l'elicitation incrementale: 61.91s
+Jeu de poids: 0.2577199987048853 0.05798095636524589 0.13826063755998041 0.3988607044873885 0.14717770288249984 
+Nombre de questions: 12
+Optimal: 260 265 192 372 280 
+Optimal du fichier: 260 265 192 372 280 
+
+Temps d'execution de la recherche locale: 0.77s
+Temps d'execution de l'elicitation incrementale: 65.85s
+Jeu de poids: 0.09861571519633541 0.282679379641145 0.2725021500247622 0.22423775160011875 0.12196500353763856 
+Nombre de questions: 14
+Optimal: 313 332 234 307 231 
+Optimal du fichier: 313 332 234 307 231 
+
+Temps d'execution de la recherche locale: 0.9s
+Temps d'execution de l'elicitation incrementale: 63.48s
+Jeu de poids: 0.23652450774139888 7.832513341585868e-05 0.23149357924333536 0.3136725529403687 0.2182310349414812 
+Nombre de questions: 12
+Optimal: 260 265 192 372 280 
+Optimal du fichier: 260 265 192 372 280 
+
+Temps d'execution de la recherche locale: 0.77s
+Temps d'execution de l'elicitation incrementale: 41.86s
+Jeu de poids: 0.16790891088921112 0.19949373666678435 0.1122389192497762 0.24153739543929545 0.2788210377549328 
+Nombre de questions: 8
+Optimal: 325 324 188 313 296 
+Optimal du fichier: 325 324 188 313 296 
+
+Temps d'execution de la recherche locale: 0.74s
+Temps d'execution de l'elicitation incrementale: 69.95s
+Jeu de poids: 0.07527364395541013 0.36403293639593787 0.33697284645341385 0.11232252355649112 0.11139804963874696 
+Nombre de questions: 14
+Optimal: 313 332 234 307 231 
+Optimal du fichier: 313 332 234 307 231 
+
+Temps d'execution de la recherche locale: 0.85s
+Temps d'execution de l'elicitation incrementale: 35.15s
+Jeu de poids: 0.3914920151022577 0.15799443504571026 0.3374995552460751 0.042331710255030366 0.07068228435092665 
+Nombre de questions: 7
+Optimal: 356 323 183 259 305 
+Optimal du fichier: 356 323 183 259 305 
+
+Temps d'execution de la recherche locale: 0.66s
+Temps d'execution de l'elicitation incrementale: 26.46s
+Jeu de poids: 0.3437303941248876 0.05888040554526548 0.23981759341515035 0.03433405657218606 0.32323755034251045 
+Nombre de questions: 6
+Optimal: 356 323 183 259 305 
+Optimal du fichier: 356 323 183 259 305 
+
+Temps d'execution de la recherche locale: 0.69s
+Temps d'execution de l'elicitation incrementale: 34.73s
+Jeu de poids: 0.14133314178236622 0.1923828042444104 0.04808384167795361 0.3670758329382646 0.2511243793570052 
+Nombre de questions: 8
+Optimal: 325 324 188 313 296 
+Optimal du fichier: 325 324 188 313 296 
+
+Temps d'execution de la recherche locale: 0.75s
+Temps d'execution de l'elicitation incrementale: 47.9s
+Jeu de poids: 0.26218610710476026 0.2464040328594021 0.10717553864546335 0.26307193206607005 0.1211623893243042 
+Nombre de questions: 11
+Optimal: 325 324 188 313 296 
+Optimal du fichier: 325 324 188 313 296 
+
+Temps d'execution de la recherche locale: 0.78s
+Temps d'execution de l'elicitation incrementale: 34.82s
+Jeu de poids: 0.3810844823760869 0.3813052368384668 0.0007527678974493174 0.20857480592430275 0.028282706963694143 
+Nombre de questions: 8
+Optimal: 356 323 183 259 305 
+Optimal du fichier: 356 323 183 259 305 
+
+Temps d'execution de la recherche locale: 0.64s
+Temps d'execution de l'elicitation incrementale: 61.69s
+Jeu de poids: 0.31175232546516496 0.1590038963005433 0.23896439862922558 0.2327481070195886 0.05753127258547757 
+Nombre de questions: 14
+Optimal: 313 332 234 307 231 
+Optimal du fichier: 313 332 234 307 231 
+
+Temps d'execution de la recherche locale: 0.67s
+Temps d'execution de l'elicitation incrementale: 31.05s
+Jeu de poids: 0.2091461398848157 0.07492642249032269 0.37495915696464527 0.03717688045111674 0.3037914002090995 
+Nombre de questions: 7
+Optimal: 307 316 166 231 365 
+Optimal du fichier: 307 316 166 231 365 
+
+Temps d'execution de la recherche locale: 0.67s
+Temps d'execution de l'elicitation incrementale: 43.97s
+Jeu de poids: 0.0370422565252797 0.4330251793909687 0.060307798510415775 0.41478142614823643 0.05484333942509944 
+Nombre de questions: 10
+Optimal: 267 307 212 352 268 
+Optimal du fichier: 267 307 212 352 268 
+
+Temps d'execution de la recherche locale: 0.72s
+Temps d'execution de l'elicitation incrementale: 27.26s
+Jeu de poids: 0.2521992044572036 0.21049681438404563 0.17576766606338634 0.12942209106809655 0.23211422402726783 
+Nombre de questions: 6
+Optimal: 356 323 183 259 305 
+Optimal du fichier: 356 323 183 259 305 
+
+Temps d'execution de la recherche locale: 0.65s
+Temps d'execution de l'elicitation incrementale: 57.08s
+Jeu de poids: 0.19825978748482775 0.1532100844233409 0.05239313849006988 0.2225285040598674 0.37360848554189413 
+Nombre de questions: 13
+Optimal: 310 298 161 304 342 
+Optimal du fichier: 310 298 161 304 342 
+
+Temps d'execution de la recherche locale: 0.68s
+Temps d'execution de l'elicitation incrementale: 39.77s
+Jeu de poids: 0.26187486530981674 0.4120235137118489 0.25288844305849484 0.02320145970659444 0.05001171821324508 
+Nombre de questions: 9
+Optimal: 313 332 234 307 231 
+Optimal du fichier: 313 332 234 307 231 
+
+Temps d'execution de la recherche locale: 0.7s
+Temps d'execution de l'elicitation incrementale: 31.12s
+Jeu de poids: 0.27246656815960685 0.1781026420507751 0.18851396573301513 0.02031825374973384 0.3405985703068692 
+Nombre de questions: 7
+Optimal: 307 316 166 231 365 
+Optimal du fichier: 307 316 166 231 365 
+
+Temps d'execution de la recherche locale: 0.79s
+Temps d'execution de l'elicitation incrementale: 26.9s
+Jeu de poids: 0.23906147411161288 0.22150872037250594 0.09006334522641588 0.1695248361503464 0.27984162413911906 
+Nombre de questions: 6
+Optimal: 356 323 183 259 305 
+Optimal du fichier: 356 323 183 259 305 
+
+Temps d'execution de la recherche locale: 0.71s
+Temps d'execution de l'elicitation incrementale: 60.96s
+Jeu de poids: 0.22501283363964172 0.2723819907466602 0.11261884343980044 0.37028087558337536 0.0197054565905223 
+Nombre de questions: 14
+Optimal: 313 332 234 307 231 
+Optimal du fichier: 313 332 234 307 231 
+

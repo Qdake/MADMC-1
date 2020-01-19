@@ -1,0 +1,20 @@
+Temps d'execution : 0.786177
+gap: 0.076892
+Jeu de poids: 0.6840744573562708 0.31592554264372924 
+Nombre de questions: 0
+Temps d'execution : 0.822968
+gap: 0.0
+Jeu de poids: 0.3069061670731744 0.6930938329268256 
+Nombre de questions: 0
+Temps d'execution : 1.022592
+gap: 0.0
+Jeu de poids: 0.45695759449626255 0.5430424055037375 
+Nombre de questions: 0
+Temps d'execution : 1.046562
+gap: 0.0
+Jeu de poids: 0.44026319771227135 0.5597368022877286 
+Nombre de questions: 0
+Temps d'execution : 1.23213
+gap: 0.018955
+Jeu de poids: 0.2943570187358947 0.7056429812641053 
+Nombre de questions: 0

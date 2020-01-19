@@ -17,37 +17,40 @@ def get_data(n,p):
     return data
     # print(data)
 
-def write_res_proc2_ILS(ally, n, p, nb_q, time):
-    with open('../res/results_proc2_ils_'+str(n)+'_'+str(p), 'a+') as f:
-        f.truncate(0)
-        f.write('Temps d\'execution : '+ str(round(time,2))+'s\n')
-        f.write('Nombre de questions: '+ str(nb_q)+'\n')
-        f.write('Nombre de Pareto: '+ str(len(ally))+'\n')
-        for y in ally:
-            for v in y:
-                f.write(str(v)+" ")
-            f.write('\n')
+def get_pareto(n,p):
+    with open('../Fronts de Pareto/PF_'+str(n)+'_'+str(p)+'.txt','r') as f:
+        pareto = [[int(num) for num in line.split(' ')] for line in f]
+    return pareto
 
-def write_res_proc1_PLS(ally, n, p, nb_q, time_PLS, time_IE):
-    with open('../res/results_proc1_pls_'+str(n)+'_'+str(p), 'a+') as f:
-        f.truncate(0)
-        f.write('Temps d\'execution de la recherche locale: '+ str(round(time_PLS,2))+'s\n')
-        f.write('Temps d\'execution de l\'elicitation incrementale: '+ str(round(time_IE,2))+'s\n')
+def write_res_proc2_ILS(opt, real_opt, n, p, w, nb_q, time):
+    with open('../res/ILS_'+str(n)+'_'+str(p)+'.txt', 'a+') as f:
+        f.write('Temps d\'execution : '+ str(round(time,6))+'\n')
+        f.write("gap: " + str(round((real_opt-opt)/real_opt,6))+'\n')
+        f.write('Jeu de poids: ')
+        for v in w:
+            f.write(str(v)+" ")
+        f.write("\n")
         f.write('Nombre de questions: '+ str(nb_q)+'\n')
-        f.write('Nombre de Pareto: '+ str(len(ally))+'\n')
-        for y in ally:
-            for v in y:
-                f.write(str(v)+" ")
-            f.write('\n')
+def write_res_proc1_PLS(opt, real_opt, n, p, w, nb_q, time_PLS, time_IE):
+    with open('../res/PLS_'+str(n)+'_'+str(p)+'.txt', 'a+') as f:
+        f.write('Temps d\'execution: '+ str(round(time_PLS+time_IE,6))+'\n')
+        f.write("gap: " + str(round((real_opt-opt)/real_opt,6))+'\n')
+        f.write('Temps d\'execution de la recherche locale: '+ str(round(time_PLS,2))+'\n')
+        f.write('Temps d\'execution de l\'elicitation incrementale: '+ str(round(time_IE,2))+'\n')
+        f.write('Jeu de poids: ')
+        for v in w:
+            f.write(str(v)+" ")
+        f.write("\n")
+        f.write('Nombre de questions: '+ str(nb_q)+'\n')
 
-def write_res_proc1_nd_tree(ally, n, p, nb_q, time_PLS, time_IE):
-    with open('../res/results_proc1_nb_tree_'+str(n)+'_'+str(p), 'a+') as f:
-        f.truncate(0)
-        f.write('Temps d\'execution de la recherche locale: '+ str(round(time_PLS,2))+'s\n')
-        f.write('Temps d\'execution de l\'elicitation incrementale: '+ str(round(time_IE,2))+'s\n')
+def write_res_proc1_nd_tree(opt, real_opt, n, p, w, nb_q, time_PLS, time_IE):
+    with open('../res/ND_'+str(n)+'_'+str(p)+'.txt', 'a+') as f:
+        f.write('Temps d\'execution: '+ str(round(time_PLS+time_IE,6))+'s\n')
+        f.write("gap: " + str(round((real_opt-opt)/real_opt,6))+'\n')
+        f.write('Temps d\'execution de la recherche locale: '+ str(round(time_PLS,2))+'\n')
+        f.write('Temps d\'execution de l\'elicitation incrementale: '+ str(round(time_IE,2))+'\n')
+        f.write('Jeu de poids: ')
+        for v in w:
+            f.write(str(v)+" ")
+        f.write("\n")
         f.write('Nombre de questions: '+ str(nb_q)+'\n')
-        f.write('Nombre de Pareto: '+ str(len(ally))+'\n')
-        for y in ally:
-            for v in y:
-                f.write(str(v)+" ")
-            f.write('\n')
